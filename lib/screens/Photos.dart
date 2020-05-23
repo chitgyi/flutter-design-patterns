@@ -89,7 +89,10 @@ class _PhotosState extends State<Photos> {
           children: <Widget>[
             Stack(
               children: <Widget>[
-                CacheableImage(url, size: Size(double.infinity, 400),),
+                CacheableImage(
+                  url,
+                  size: Size(double.infinity, 400),
+                ),
                 Positioned(
                   right: 5,
                   top: 5,
