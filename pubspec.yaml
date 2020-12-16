@@ -1,0 +1,26 @@
+name: test_3d
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_cube: ^0.0.5
+  flutter_3d_obj: ^0.0.6
+  cupertino_icons: ^1.0.0
+  model_viewer: ^0.8.1
+  provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
